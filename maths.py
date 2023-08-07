@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 def box_muller(mu, sigma):
   # generate two independent random numbers from a uniform distribution
-  u1 = random.random()
+  u1 = random.random()  #values between 0 and 1 
   u2 = random.random()
 
   # applying the Box-Muller transformation to get two independent
